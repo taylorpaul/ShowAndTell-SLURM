@@ -2,7 +2,7 @@
 # latest model checkpoint file and computing evaluation metrics.
 #TODO: Base Directory:
 WORK=/work/thpaul/tf_tools/tensorflow/im2txt
-
+cd $WORK
 #Directory containing preprocessed MSCOCO data.
 MSCOCO_DIR="${WORK}/im2txt/data/mscoco"
 

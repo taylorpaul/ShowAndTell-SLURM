@@ -1,5 +1,6 @@
 #TODO: Update your Base Directory:
 WORK=/work/thpaul/tf_tools/tensorflow/im2txt
+cd $WORK
 
 #TODO: Directory containing preprocessed MSCOCO data.
 MSCOCO_DIR="/work/thpaul/tf_tools/tensorflow/im2txt/im2txt/data/mscoco"
