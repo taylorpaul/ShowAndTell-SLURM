@@ -10,8 +10,9 @@
 module load cuda/8.0
 source /home/thpaul/.bash_profile
 
-#TODO: Update your Base Directory:
+#TODO: Update your Base Directory and Scripts directory:
 WORK=/work/thpaul/tf_tools/tensorflow/im2txt
+SCRIPTS="${WORK}/NLP_Project_Scripts"
 
 #TODO: Directory containing preprocessed MSCOCO data.
 MSCOCO_DIR="/work/thpaul/tf_tools/tensorflow/im2txt/im2txt/data/mscoco"
