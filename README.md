@@ -11,8 +11,8 @@ run the appropriate script. Each script has TODO's requiring updates for your di
 2.  Download and process the MSCOCO data using `MSCOCO.sh`
 3.  Download the InceptionV3 checkpoint using `get_inception.sh`
 4.  Modify `tensorflowShowandTell0.sh` and `tensorflowShowandTell1.sh` for your system.
-5.  Initialize the training and evaluation using `im2txttrain.sh` to call the scripts modified in step 4.
+5.  Initialize the training and evaluation using `im2txttrain.sh` to call the scripts modified in step 4
 6.  After 5,000 steps complete, run `tensorboard.sh` to start a tensorboard server.
 7. Follow this [gist](https://gist.github.com/taylorpaul/250ee3ed2524e8c28ee7c58ed656a5b9) to access the server.
 8. You can modify and run `showAndTellClassify.sh` to test your model when the script from step 5 completes.
-9. Run `trainWithInception.sh`(TODO: Pending updates!!!) to complete an additional 2 Million training steps including updates to the Inception network. 
+9. Run `trainWithInception.sh` to complete an additional 2 Million training steps including updates to the Inception network.
