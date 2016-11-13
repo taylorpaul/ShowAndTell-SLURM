@@ -1,9 +1,9 @@
 # Run the evaluation script. This will run in a loop, periodically loading the
 # latest model checkpoint file and computing evaluation metrics.
-#Base Directory:
+#TODO: Base Directory:
 WORK=/work/thpaul/tf_tools/tensorflow/im2txt
 cd $WORK
-# Directory containing preprocessed MSCOCO data.
+#Directory containing preprocessed MSCOCO data.
 MSCOCO_DIR="${WORK}/im2txt/data/mscoco"
 
 # Inception v3 checkpoint file.
