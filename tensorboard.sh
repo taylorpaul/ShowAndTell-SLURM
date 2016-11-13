@@ -6,7 +6,7 @@
 #SBATCH -o /work/thpaul/tf_tools/tensorflow/im2txt/tb-%J.out #TODO: Where to save your output
 
 # To run as an array job, use the following command:
-# sbatch --partition=beards --array=0-0 tensorboardHam.sh
+# sbatch --partition=beards --array=0-0 tensorboard.sh
 # squeue --user thpaul
 
 source /home/thpaul/.bash_profile #TODO: Your profile
